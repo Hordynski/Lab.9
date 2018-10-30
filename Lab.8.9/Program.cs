@@ -11,7 +11,8 @@ namespace Lab._8._9
         static void Main(string[] args)
         {
             var doAgain = true;
-
+            // James - I would consider breaking the logic in this Main method into a few methods, this will help keep your code
+            // a little more organized.
             while (doAgain)
             {
                 Console.WriteLine("Which student would you like to know more about? Please enter a number between 1-20: ");
